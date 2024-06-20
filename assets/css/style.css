@@ -1,0 +1,77 @@
+/*ESTILOS GENERALES*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: var(--fonts_color);
+}
+:root {
+    --backgroud: #81D4FA;
+    --backgroud_input: #ffffff;
+    --fonts_color: #1d1d1d;
+}
+.conteiner {
+    height: 100dvh;
+    display: flex;
+    align-items: center;
+    background: var(--backgroud);
+}
+/*CARD*/
+.card {
+    width: 450px;
+    margin: auto;
+    background-color: #fff5;
+    padding: 10px;
+}
+/*CARD HEADER LOGIN*/
+.card_header {
+    text-align: center;
+}
+.card_header-login img {
+    width: 90px;
+}
+.card_header-login h2 {
+    margin-top: 10px;
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+/*CARD FORM LOGIN*/
+.card_form-login {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+}
+/*CARD FORM INPUTS*/
+.card_form-login div {
+    margin: 10px 0;
+    padding: 10px 5px;
+    border-radius: 5px;
+    background-color: var(--backgroud_input);
+}
+.card_form-login div input {
+    width: 90%;
+    padding: 10px;
+    border: 0;
+    background: none;
+    font-size: 15px;
+}
+.card_form-login div label {
+    font-size: 20px;
+}
+.card_form-login .input_submit-login {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 20px;
+    border: 0;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+/*FOOTER LOGIN*/
+.card_footer-login {
+    margin-top: 20px;
+}
+.card_footer-login a {
+    margin-left: 50px;
+}
